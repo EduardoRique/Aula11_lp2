@@ -1,0 +1,5 @@
+Retorna uma representação string do objeto. Em geral, o toString retorna uma string que "textualmente representa" esse objeto. O resultado deve ser uma representação concisa, mas informativa que é fácil para uma pessoa ler. Recomenda-se que todas as subclasses substituir esse método.
+
+O toString método para a classe Object retorna um string com o nome da classe da qual o objeto é uma instância, o carácter de sinal, ` @ ', eo representação hexadecimal sem sinal do código hash do objeto. Em outras palavras, este método retorna uma string igual ao valor de:
+
+    [code]  getClass (). getName () + '@' + Integer.toHexString (hashCode ())[/code]
